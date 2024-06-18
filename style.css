@@ -1,0 +1,106 @@
+
+.container {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .fruits{
+    font-size: 1.2rem;
+    width: 8rem;
+    height: 8rem;
+    position: relative;
+    display: inline-block;
+
+  }
+  .orange {
+    width: 5.6em;
+    height: 5.6em;
+    border-radius: 50%;
+    background-color: orange;
+    box-shadow: inset 0.2em -.2em  rgb(245, 169, 4);
+    position: absolute;
+    top:0.8em;
+    left: 0.2em;
+  }
+  .orange:before {
+    content: "";
+    position: absolute;
+    top: -1em;
+    left: 3em;
+    height: 0;
+    width: 0;
+    border: 1em solid rgb(4, 146, 4);
+    border-radius: 50% 0 50% 0;
+  }
+  .apple {
+    width:6em;
+    height:5em;
+    background-color:  rgb(18, 202, 18);
+    box-shadow: inset 0.2em -0.2em  green;
+    border-radius: 2em 2em 3em 3em;
+    position:absolute;
+    top: 1em;
+    left:0.3em;
+  }
+
+  .apple:before {
+    top:-.2em;
+    left:1.8em;
+    content:"";
+    width:4.1em;
+    height:2.75em;
+    background-color: inherit;
+    border-radius: 3em 3em 0 0 ;
+    position: absolute;
+  }
+
+  .apple:after{
+    content:"";
+    width: 0.2em;
+    height: 1em;
+    background-color:rgb(4, 110, 4);
+    position:absolute;
+    z-index: 2;
+    top: -0.5em;
+    left: 3em;
+  }
+  .orange {
+    width: 5.6em;
+    height: 5.6em;
+    border-radius: 50%;
+    background-color: orange;
+    box-shadow: inset 0.2em -.2em  rgb(143, 93, 2);
+    position: absolute;
+    top:0.8em;
+    left: 0.2em;
+  }
+  .orange:before {
+    content: "";
+    position: absolute;
+    top: -1em;
+    left: 3em;
+    height: 0;
+    width: 0;
+    border: 1em solid rgb(4, 110, 4);
+    border-radius: 70% 0 70% 0;
+  }
+  .peach  {
+    width:6em;
+    height:5em;
+    background-color:  rgba(250, 152, 5, 0.938);
+    box-shadow: inset 0.2em -0.2em rgb(209, 144, 22);
+    border-radius: 2.5em 2.5em 3em 3em;
+    position:absolute;
+    top: 1.6em;
+    left:0.3em;
+  }
+  .peach:before {
+    content: "";
+    position: absolute;
+    top: -1em;
+    left: 3em;
+    height: 0;
+    width: 0;
+    border: 1em solid green;
+    border-radius: 70% 0 70% 0;
+  }
